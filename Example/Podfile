@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SWLibrary_Example' do
+  pod 'SWLibrary', :path => '../'
+
+  target 'SWLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
