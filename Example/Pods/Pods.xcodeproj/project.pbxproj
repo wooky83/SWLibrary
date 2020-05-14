@@ -12,6 +12,7 @@
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		3C0C3DE1246D2656005D1876 /* SWString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C3DE0246D2656005D1876 /* SWString.swift */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4AAA1E2CC463C719553F18586FDD6EEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		545ED876C866AB9D3F00DD3F8095F680 /* Pods-SWLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3A1A17DB66CAD9D153797D24881BDD /* Pods-SWLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -77,6 +78,7 @@
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		35E4D3DA0D592AB143DEEBE879685F86 /* SWLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWLibrary.release.xcconfig; sourceTree = "<group>"; };
+		3C0C3DE0246D2656005D1876 /* SWString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWString.swift; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		47930FBCFDCDA8FB23ED03934035782B /* SWLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SWLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -243,6 +245,7 @@
 		95289D678E49F36A8916122BDC5A8ED1 /* SWLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				3C0C3DE0246D2656005D1876 /* SWString.swift */,
 				7FC56F295A729101EE4AE9EA52DE17CE /* SWCollection.swift */,
 				C463D1557B10FB645FEFCBDCE3EEDECE /* Pod */,
 				5D0CAC306CC8D9830C6771FEAFF37A93 /* Support Files */,
@@ -545,6 +548,7 @@
 			files = (
 				D62BD670C1107B8F9376AEDE772A963F /* SWCollection.swift in Sources */,
 				581489E6BA71630CB0B005DD05AE3333 /* SWLibrary-dummy.m in Sources */,
+				3C0C3DE1246D2656005D1876 /* SWString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
