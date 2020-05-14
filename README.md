@@ -22,7 +22,7 @@ pod 'SWLibrary'
 
 ## Author
 
-baw0803@nate.com, baw0803@sk.com
+baw0803@nate.com, baw0803@gmail.com
 
 ## License
 
