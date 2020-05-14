@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SWLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let hi = [1, 2, 3]
+        print("Test : \(hi[safe: 5] ?? 5)")
     }
 
     override func didReceiveMemoryWarning() {

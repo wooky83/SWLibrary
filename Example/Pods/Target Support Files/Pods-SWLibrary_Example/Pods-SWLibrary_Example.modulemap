@@ -1,0 +1,6 @@
+framework module Pods_SWLibrary_Example {
+  umbrella header "Pods-SWLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

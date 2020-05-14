@@ -1,0 +1,22 @@
+{
+  "name": "SWLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of SWLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/baw0803@nate.com/SWLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "baw0803@nate.com": "baw0803@sk.com"
+  },
+  "source": {
+    "git": "https://github.com/baw0803@nate.com/SWLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SWLibrary/Classes/**/*"
+}
