@@ -355,7 +355,7 @@ extension AttributedStringFactory: XMLParserDelegate {
                 
             case .underLine :
                 attributedString.addAttribute(.underlineStyle,
-                                              value: NSUnderlineStyle.styleSingle.rawValue,
+                                              value: NSUnderlineStyle.single.rawValue,
                                               range: NSMakeRange(0, attributedString.length))
                 
             case .bgColor(let color):
