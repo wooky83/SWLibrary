@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let hi = [1, 2, 3]
         print("Test : \(hi[safe: 5] ?? 5)")
+        let _ = UIColor.color(colorName: "white")
     }
 
     override func didReceiveMemoryWarning() {
